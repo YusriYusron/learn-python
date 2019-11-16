@@ -52,3 +52,20 @@ print(exampleCharacter.upper()) # Upper Character
 print(exampleCharacter.lower()) # Lower Character
 print("Apakah ini kapital?","HELLO WORLD!".isupper())
 print("Apakah ini kapital?",exampleCharacter.lower().isupper())
+
+# isX String Method
+# isalpha method = return TRUE if only string and not null
+print("is alpha?","Hello".isalpha())
+print("is alpha?","Hello123".isalpha())
+
+# isalnum method = return TRUE if only string or number and not null
+print("is alnum?","hallo".isalnum())
+print("is alnum?","123".isalnum())
+
+# isdecimal method = return TRUE if only number or numeric and not null
+print("is decimal?","hallo".isdecimal())
+print("is decimal?","123".isdecimal())
+
+# isspace method = return TRUE if only space, tab, newline or whitespace and not null
+print("is space?","\n".isspace())
+print("is space?","  ".isspace())
