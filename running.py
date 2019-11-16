@@ -41,3 +41,14 @@ print("Mengambil index awal dari belakang = ",exampleList[-1])
 print("Mengambil index ke 3 sampai sebelum index ke 5 = ",exampleList[3:5])
 print("Mengambil index awal sampai sebelum index 5 (index 4) = ",exampleList[:5])
 print("Mengambil index awal dari belakang hingga index 3 dari belakang = ",exampleList[:-3])
+
+# Transform number
+exampleNumber = 5
+print(str(exampleNumber).zfill(5)) # Add 0 in first 5 times
+
+# Transform character
+exampleCharacter = "Hello World !"
+print(exampleCharacter.upper()) # Upper Character
+print(exampleCharacter.lower()) # Lower Character
+print("Apakah ini kapital?","HELLO WORLD!".isupper())
+print("Apakah ini kapital?",exampleCharacter.lower().isupper())
