@@ -33,3 +33,11 @@ else:
 # Length of String not allowed for numeric
 string = "Si Ateng"
 print(len(string))
+
+# List
+exampleList = [1,2,3,4,5,6,7,8,9,10]
+print("Mengambil index ke 5 = ",exampleList[5])
+print("Mengambil index awal dari belakang = ",exampleList[-1])
+print("Mengambil index ke 3 sampai sebelum index ke 5 = ",exampleList[3:5])
+print("Mengambil index awal sampai sebelum index 5 (index 4) = ",exampleList[:5])
+print("Mengambil index awal dari belakang hingga index 3 dari belakang = ",exampleList[:-3])
