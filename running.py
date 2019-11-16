@@ -69,3 +69,9 @@ print("is decimal?","123".isdecimal())
 # isspace method = return TRUE if only space, tab, newline or whitespace and not null
 print("is space?","\n".isspace())
 print("is space?","  ".isspace())
+
+# startswith = return TRUE based first string
+print("Hello World!".startswith("Hello"))
+
+# endswith = return TRUE based end string
+print("Hello World!".endswith("Hello"))
