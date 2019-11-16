@@ -15,8 +15,8 @@ print("Isi list-nya adalah %s "%myList)
 print("Isi list-nya adalah",myList)
 
 # Input
-num = input("Masukan sesuatu: ")
-print("Ini hasil output dari inputanmu",num)
+yourInput = input("Masukan sesuatu: ")
+print("Ini hasil output dari inputanmu",yourInput)
 
 # Check Data Type
 x = 6
@@ -30,6 +30,6 @@ if False:
 else:
     print(1+2) # Output 3
 
-# Length of String not allowed for numerik
+# Length of String not allowed for numeric
 string = "Si Ateng"
 print(len(string))
